@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+#root{ 
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    margin: 2em 0;
+}
+
+h2 {
+   text-align: center;
+   color: #181833;
+   font-weight: 600;
+}
+.title{
+    border: 2px solid #0177B8;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1em;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 330px;
+    height: 450px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.green {
+    border: 2px solid #179D2E;
+}
+.blue{
+    border: 2px solid #0177B8;
+}
+.yellow{
+    border: 2px solid #F5AF23;
+}
+.red {
+    border: 2px solid #F02E2C;
+}
+.icon {
+    width: 88px;
+    height: 82px;
+    align-self: end;
+    background-image: url(./icons.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25px;
+}
+
+ul{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding-left: 20px;
+    margin-bottom: 0;
+    line-height: 32px;
+
+}
+li{
+    color: #2D2D2D;
+    font-weight: 300;
+    font-size: 17px;
+}
+a{
+    color: black;
+    align-self: flex-end;
+}
